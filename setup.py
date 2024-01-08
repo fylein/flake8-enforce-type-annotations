@@ -24,7 +24,7 @@ setup(
     ],
     entry_points={
         "flake8.extension": [
-            "EKW = plugin.checker:Plugin",
+            "ETA = plugin.checker:Plugin",
         ],
     },
     classifiers=[
