@@ -1,7 +1,7 @@
 import ast
 
 import pytest
-from plugin.checker import Plugin
+from enforce_type_annotations.checker import Plugin
 
 
 class TestPlugin:
