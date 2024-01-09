@@ -39,7 +39,7 @@ class FunctionVisitor(ast.NodeVisitor):
 
 class Plugin:
     name = "enforce_type_annotations"
-    version = "0.1"
+    version = "0.1.1"
 
     def __init__(self, tree: ast.AST, filename: str) -> None:
         self.tree = tree
