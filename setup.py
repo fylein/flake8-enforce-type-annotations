@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from plugin.checker import Plugin
+from enforce_type_annotations.checker import Plugin
 
 
 with open("README.md", "r") as f:
@@ -17,14 +17,14 @@ setup(
     keywords=["flake8", "type", "python", "enforce", "annotations"],
     url="https://github.com/fylein/flake8-kwargs-enforcer",
     packages=find_packages(
-        include=["plugin*"]
+        include=["enforce_type_annotations*"]
     ),
     install_requires=[
         "flake8==7.0.0"
     ],
     entry_points={
         "flake8.extension": [
-            "ETA = plugin.checker:Plugin",
+            "ETA = enforce_type_annotations.checker:Plugin",
         ],
     },
     classifiers=[
