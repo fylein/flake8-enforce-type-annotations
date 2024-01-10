@@ -58,7 +58,3 @@ License
 -------
 
 This Flake8 plugin is distributed under the MIT License.
-
-* * * * *
-
-Feel free to customize this README according to your specific plugin details, and ensure to replace placeholders like `your_project_directory` and `your_username` with appropriate values.
