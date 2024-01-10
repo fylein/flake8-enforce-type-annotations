@@ -11,8 +11,6 @@ Features
 
 -   Type Annotation Enforcement: The plugin checks your Python code for functions, variables, and parameters that lack type annotations and raises warnings or errors accordingly.
 
--   Configurability: Customize the strictness of the enforcement by configuring the plugin to either issue warnings or errors for missing type annotations.
-
 -   Selective Ignoring: Use inline comments to selectively ignore the type annotation checks for specific lines or blocks of code.
 
 Installation
