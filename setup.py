@@ -15,7 +15,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords=["flake8", "type", "python", "enforce", "annotations"],
-    url="https://github.com/fylein/flake8-kwargs-enforcer",
+    url="https://github.com/fylein/flake8-enforce-type-annotations",
     packages=find_packages(
         include=["enforce_type_annotations*"]
     ),
